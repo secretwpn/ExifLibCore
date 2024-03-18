@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>ExifLibCore</Title>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <Description>A Fast Exif Data Extractor for .NET 6.0+</Description>
+    <Copyright>Copyright © 2009 Simon McKenzie, released under the Code Project Open License (CPOL) 1.02</Copyright>
+    <AssemblyVersion>1.7.0.0</AssemblyVersion>
+    <FileVersion>1.7.0.0</FileVersion>
+    <PackageLicenseExpression>CPOL-1.02</PackageLicenseExpression>
+    <Version>1.7.0</Version>
+  </PropertyGroup>
+	
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+	<DebugType>none</DebugType>
+	<AllowedReferenceRelatedFileExtensions>none</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
