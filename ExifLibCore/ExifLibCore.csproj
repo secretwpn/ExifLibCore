@@ -11,8 +11,9 @@
     <Copyright>Copyright © 2009 Simon McKenzie, released under the Code Project Open License (CPOL) 1.02</Copyright>
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
     <FileVersion>1.7.0.0</FileVersion>
-    <PackageLicenseExpression>CPOL-1.02</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Version>1.7.0</Version>
+    <RepositoryUrl>https://github.com/secretwpn/ExifLibCore</RepositoryUrl>
   </PropertyGroup>
 	
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">

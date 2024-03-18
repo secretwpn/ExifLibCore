@@ -1,3 +1,7 @@
+Nuget package published under MIT license
+
+Original work is published under CPOL-1.02
+
 The Code Project Open License (CPOL) 1.02
 
 https://www.codeproject.com/info/cpol10.aspx
